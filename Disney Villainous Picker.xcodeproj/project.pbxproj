@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B916302BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */; };
+		88B916322BFBA3BC00D92B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916312BFBA3BC00D92B28 /* ContentView.swift */; };
+		88B916342BFBA3BE00D92B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B916332BFBA3BE00D92B28 /* Assets.xcassets */; };
+		88B916372BFBA3BE00D92B28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B916362BFBA3BE00D92B28 /* Preview Assets.xcassets */; };
+		88B916412BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916402BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift */; };
+		88B9164B2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9164A2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITests.swift */; };
+		88B9164D2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9164C2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift */; };
+		88B9165E2BFBACDA00D92B28 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9165D2BFBACDA00D92B28 /* Color+Extension.swift */; };
+		88B916632BFBC37D00D92B28 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916622BFBC37D00D92B28 /* Game.swift */; };
+		88B916652BFBC39B00D92B28 /* GameCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916642BFBC39B00D92B28 /* GameCharacter.swift */; };
+		88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE5F2BFBC59F0076FEFC /* Villains.swift */; };
+		88DDFE622BFBC6600076FEFC /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE612BFBC6600076FEFC /* GameBox.swift */; };
+		88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE632BFBC7350076FEFC /* Extension+String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B9163D2BFBA3BE00D92B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B916242BFBA3BC00D92B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B9162B2BFBA3BC00D92B28;
+			remoteInfo = "Disney Villainous Picker";
+		};
+		88B916472BFBA3BE00D92B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B916242BFBA3BC00D92B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B9162B2BFBA3BC00D92B28;
+			remoteInfo = "Disney Villainous Picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88B9162C2BFBA3BC00D92B28 /* Disney Villainous Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disney Villainous Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerApp.swift; sourceTree = "<group>"; };
+		88B916312BFBA3BC00D92B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88B916332BFBA3BE00D92B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B916362BFBA3BE00D92B28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88B9163C2BFBA3BE00D92B28 /* Disney Villainous PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disney Villainous PickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B916402BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerTests.swift; sourceTree = "<group>"; };
+		88B916462BFBA3BE00D92B28 /* Disney Villainous PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disney Villainous PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B9164A2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerUITests.swift; sourceTree = "<group>"; };
+		88B9164C2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88B9165D2BFBACDA00D92B28 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		88B916622BFBC37D00D92B28 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		88B916642BFBC39B00D92B28 /* GameCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCharacter.swift; sourceTree = "<group>"; };
+		88DDFE5F2BFBC59F0076FEFC /* Villains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villains.swift; sourceTree = "<group>"; };
+		88DDFE612BFBC6600076FEFC /* GameBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBox.swift; sourceTree = "<group>"; };
+		88DDFE632BFBC7350076FEFC /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B916292BFBA3BC00D92B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B916392BFBA3BE00D92B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B916432BFBA3BE00D92B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88B916232BFBA3BC00D92B28 = {
+			isa = PBXGroup;
+			children = (
+				88B9162E2BFBA3BC00D92B28 /* Disney Villainous Picker */,
+				88B9163F2BFBA3BE00D92B28 /* Disney Villainous PickerTests */,
+				88B916492BFBA3BE00D92B28 /* Disney Villainous PickerUITests */,
+				88B9162D2BFBA3BC00D92B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B9162D2BFBA3BC00D92B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B9162C2BFBA3BC00D92B28 /* Disney Villainous Picker.app */,
+				88B9163C2BFBA3BE00D92B28 /* Disney Villainous PickerTests.xctest */,
+				88B916462BFBA3BE00D92B28 /* Disney Villainous PickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B9162E2BFBA3BC00D92B28 /* Disney Villainous Picker */ = {
+			isa = PBXGroup;
+			children = (
+				88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */,
+				88B916612BFBC35F00D92B28 /* Models */,
+				88B9165C2BFBACC900D92B28 /* Extensions */,
+				88B916592BFBAA1200D92B28 /* PickerView */,
+				88B916312BFBA3BC00D92B28 /* ContentView.swift */,
+				88B916332BFBA3BE00D92B28 /* Assets.xcassets */,
+				88B916352BFBA3BE00D92B28 /* Preview Content */,
+			);
+			path = "Disney Villainous Picker";
+			sourceTree = "<group>";
+		};
+		88B916352BFBA3BE00D92B28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88B916362BFBA3BE00D92B28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88B9163F2BFBA3BE00D92B28 /* Disney Villainous PickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B916402BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift */,
+			);
+			path = "Disney Villainous PickerTests";
+			sourceTree = "<group>";
+		};
+		88B916492BFBA3BE00D92B28 /* Disney Villainous PickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88B9164A2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITests.swift */,
+				88B9164C2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift */,
+			);
+			path = "Disney Villainous PickerUITests";
+			sourceTree = "<group>";
+		};
+		88B916592BFBAA1200D92B28 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		88B9165C2BFBACC900D92B28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88B9165D2BFBACDA00D92B28 /* Color+Extension.swift */,
+				88DDFE632BFBC7350076FEFC /* Extension+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88B916612BFBC35F00D92B28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88B916622BFBC37D00D92B28 /* Game.swift */,
+				88B916642BFBC39B00D92B28 /* GameCharacter.swift */,
+				88DDFE5F2BFBC59F0076FEFC /* Villains.swift */,
+				88DDFE612BFBC6600076FEFC /* GameBox.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B9162B2BFBA3BC00D92B28 /* Disney Villainous Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B916502BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous Picker" */;
+			buildPhases = (
+				88B916282BFBA3BC00D92B28 /* Sources */,
+				88B916292BFBA3BC00D92B28 /* Frameworks */,
+				88B9162A2BFBA3BC00D92B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disney Villainous Picker";
+			productName = "Disney Villainous Picker";
+			productReference = 88B9162C2BFBA3BC00D92B28 /* Disney Villainous Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B9163B2BFBA3BE00D92B28 /* Disney Villainous PickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B916532BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous PickerTests" */;
+			buildPhases = (
+				88B916382BFBA3BE00D92B28 /* Sources */,
+				88B916392BFBA3BE00D92B28 /* Frameworks */,
+				88B9163A2BFBA3BE00D92B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B9163E2BFBA3BE00D92B28 /* PBXTargetDependency */,
+			);
+			name = "Disney Villainous PickerTests";
+			productName = "Disney Villainous PickerTests";
+			productReference = 88B9163C2BFBA3BE00D92B28 /* Disney Villainous PickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88B916452BFBA3BE00D92B28 /* Disney Villainous PickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B916562BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous PickerUITests" */;
+			buildPhases = (
+				88B916422BFBA3BE00D92B28 /* Sources */,
+				88B916432BFBA3BE00D92B28 /* Frameworks */,
+				88B916442BFBA3BE00D92B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B916482BFBA3BE00D92B28 /* PBXTargetDependency */,
+			);
+			name = "Disney Villainous PickerUITests";
+			productName = "Disney Villainous PickerUITests";
+			productReference = 88B916462BFBA3BE00D92B28 /* Disney Villainous PickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B916242BFBA3BC00D92B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					88B9162B2BFBA3BC00D92B28 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					88B9163B2BFBA3BE00D92B28 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88B9162B2BFBA3BC00D92B28;
+					};
+					88B916452BFBA3BE00D92B28 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 88B9162B2BFBA3BC00D92B28;
+					};
+				};
+			};
+			buildConfigurationList = 88B916272BFBA3BC00D92B28 /* Build configuration list for PBXProject "Disney Villainous Picker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B916232BFBA3BC00D92B28;
+			productRefGroup = 88B9162D2BFBA3BC00D92B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B9162B2BFBA3BC00D92B28 /* Disney Villainous Picker */,
+				88B9163B2BFBA3BE00D92B28 /* Disney Villainous PickerTests */,
+				88B916452BFBA3BE00D92B28 /* Disney Villainous PickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B9162A2BFBA3BC00D92B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B916372BFBA3BE00D92B28 /* Preview Assets.xcassets in Resources */,
+				88B916342BFBA3BE00D92B28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B9163A2BFBA3BE00D92B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B916442BFBA3BE00D92B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B916282BFBA3BC00D92B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B916652BFBC39B00D92B28 /* GameCharacter.swift in Sources */,
+				88B916632BFBC37D00D92B28 /* Game.swift in Sources */,
+				88DDFE622BFBC6600076FEFC /* GameBox.swift in Sources */,
+				88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */,
+				88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */,
+				88B916322BFBA3BC00D92B28 /* ContentView.swift in Sources */,
+				88B916302BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift in Sources */,
+				88B9165E2BFBACDA00D92B28 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B916382BFBA3BE00D92B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B916412BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B916422BFBA3BE00D92B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9164D2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift in Sources */,
+				88B9164B2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B9163E2BFBA3BE00D92B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B9162B2BFBA3BC00D92B28 /* Disney Villainous Picker */;
+			targetProxy = 88B9163D2BFBA3BE00D92B28 /* PBXContainerItemProxy */;
+		};
+		88B916482BFBA3BE00D92B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B9162B2BFBA3BC00D92B28 /* Disney Villainous Picker */;
+			targetProxy = 88B916472BFBA3BE00D92B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88B9164E2BFBA3BE00D92B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88B9164F2BFBA3BE00D92B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B916512BFBA3BE00D92B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disney Villainous Picker/Preview Content\"";
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B916522BFBA3BE00D92B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disney Villainous Picker/Preview Content\"";
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88B916542BFBA3BE00D92B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-PickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disney Villainous Picker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disney Villainous Picker";
+			};
+			name = Debug;
+		};
+		88B916552BFBA3BE00D92B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-PickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disney Villainous Picker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disney Villainous Picker";
+			};
+			name = Release;
+		};
+		88B916572BFBA3BE00D92B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disney Villainous Picker";
+			};
+			name = Debug;
+		};
+		88B916582BFBA3BE00D92B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P24C4Q2J2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nunomendonca.Disney-Villainous-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disney Villainous Picker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B916272BFBA3BC00D92B28 /* Build configuration list for PBXProject "Disney Villainous Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B9164E2BFBA3BE00D92B28 /* Debug */,
+				88B9164F2BFBA3BE00D92B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B916502BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B916512BFBA3BE00D92B28 /* Debug */,
+				88B916522BFBA3BE00D92B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B916532BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous PickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B916542BFBA3BE00D92B28 /* Debug */,
+				88B916552BFBA3BE00D92B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B916562BFBA3BE00D92B28 /* Build configuration list for PBXNativeTarget "Disney Villainous PickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B916572BFBA3BE00D92B28 /* Debug */,
+				88B916582BFBA3BE00D92B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B916242BFBA3BC00D92B28 /* Project object */;
+}
