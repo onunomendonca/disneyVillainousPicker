@@ -12,9 +12,4 @@ struct GameCharacter: Identifiable {
     let id = UUID()
     let name: String
     var selected: Bool
-
-    mutating func toggleSelected() {
-
-        selected.toggle()
-    }
 }
