@@ -11,7 +11,8 @@ import SwiftUI
 struct Disney_Villainous_PickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoardGameView()
+                .preferredColorScheme(.dark)
         }
     }
 }

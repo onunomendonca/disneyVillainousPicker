@@ -1,5 +1,5 @@
 //
-//  Games.swift
+//  Game.swift
 //  Disney Villainous Picker
 //
 //  Created by Nuno Mendonça on 20/05/2024.
@@ -7,39 +7,85 @@
 
 import Foundation
 
-struct GameBox {
+struct GameBox: Identifiable {
 
-    static let games: [Game] = [villainous, wickedToTheCore, evilComesPrepared, perfectlyWretched, despicablePlots, biggerAndBadder, filledWithFright ]
+    var id = UUID()
+    let name: String
+    var characters: [GameCharacter]
+    var selected: Bool
 
-    static let villainous = Game(name: "Villainous", characters: [Villains.ursula,
-                                                                  Villains.captainHook,
-                                                                  Villains.jafar,
-                                                                  Villains.maleficent,
-                                                                  Villains.princeJohn,
-                                                                  Villains.queenOfHearts])
+    func areAllCharactersDeselected() -> Bool {
 
-    static let wickedToTheCore = Game(name: "Wicked To The Core", characters: [Villains.evilQueen,
-                                                                               Villains.facilier,
-                                                                               Villains.hades])
+        var areAllDeselected = true
 
-    static let evilComesPrepared = Game(name: "Evil Comes Prepared", characters: [Villains.scar,
-                                                                                  Villains.ratigan,
-                                                                                  Villains.yzma])
+        self.characters.forEach { character in
 
-    static let perfectlyWretched = Game(name: "Perfectly Wretched", characters: [Villains.cruellaDeVil,
-                                                                                 Villains.motherGothel,
-                                                                                 Villains.pete])
+            if character.selected == true {
 
-    static let despicablePlots = Game(name: "Despicable Plots", characters: [Villains.gaston,
-                                                                             Villains.hornedKing,
-                                                                             Villains.wickedStepmother])
+                areAllDeselected = false
+            }
+        }
 
-    static let biggerAndBadder = Game(name: "Bigger and Badder", characters: [Villains.syndrome,
-                                                                              Villains.lotso,
-                                                                              Villains.madameMim])
+        return areAllDeselected
+    }
+}
 
-    static let filledWithFright = Game(name: "Filled With Fright", characters: [Villains.oogieBoogie])
+enum GameBoxes {
+    case villainous
+    case wickedToTheCore
+    case evilComesPrepared
+    case perfectlyWretched
+    case despicablePlots
+    case biggerAndBadder
+    case filledWithFright
 
-//    static let sugarAndSpite = Game(name: "Sugar and Spite", characters: [Villains.shereKahn,
-//                                                                          Villains.kingCandy])
+    var game: GameBox {
+
+        switch self {
+
+        case .villainous:
+            return GameBox(name: "Villainous", characters: [
+                Villains.ursula,
+                Villains.captainHook,
+                Villains.jafar,
+                Villains.maleficent,
+                Villains.princeJohn,
+                Villains.queenOfHearts
+            ], selected: false)
+        case .wickedToTheCore:
+            return GameBox(name: "Wicked To The Core", characters: [
+                Villains.evilQueen,
+                Villains.facilier,
+                Villains.hades
+            ], selected: false)
+        case .evilComesPrepared:
+            return GameBox(name: "Evil Comes Prepared", characters: [
+                Villains.scar,
+                Villains.ratigan,
+                Villains.yzma
+            ], selected: false)
+        case .perfectlyWretched:
+            return GameBox(name: "Perfectly Wretched", characters: [
+                Villains.cruellaDeVil,
+                Villains.motherGothel,
+                Villains.pete
+            ], selected: false)
+        case .despicablePlots:
+            return GameBox(name: "Despicable Plots", characters: [
+                Villains.gaston,
+                Villains.hornedKing,
+                Villains.wickedStepmother
+            ], selected: false)
+        case .biggerAndBadder:
+            return GameBox(name: "Bigger and Badder", characters: [
+                Villains.syndrome,
+                Villains.lotso,
+                Villains.madameMim
+            ], selected: false)
+        case .filledWithFright:
+            return GameBox(name: "Filled With Fright", characters: [
+                Villains.oogieBoogie
+            ], selected: false)
+        }
+    }
 }
