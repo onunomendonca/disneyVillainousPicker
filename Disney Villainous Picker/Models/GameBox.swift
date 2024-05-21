@@ -11,6 +11,11 @@ struct GameBox: Identifiable {
 
     var id = UUID()
     let name: String
-    var characters: [GameCharacter]
+    var characters: [Character]
     var selected: Bool
+
+    func isOneCharacterSelected() -> Bool {
+
+        return characters.contains { $0.selected }
+    }
 }

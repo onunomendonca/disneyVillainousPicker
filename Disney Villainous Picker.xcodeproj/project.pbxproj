@@ -17,7 +17,7 @@
 		884E5EBC2BFD1EA900CA04B9 /* PirataOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 884E5EB62BFD1EA900CA04B9 /* PirataOne-Regular.ttf */; };
 		884E5EBD2BFD1EA900CA04B9 /* PirataOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 884E5EB62BFD1EA900CA04B9 /* PirataOne-Regular.ttf */; };
 		88B916302BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */; };
-		88B916322BFBA3BC00D92B28 /* VillainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916312BFBA3BC00D92B28 /* VillainsView.swift */; };
+		88B916322BFBA3BC00D92B28 /* VillainsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916312BFBA3BC00D92B28 /* VillainsPicker.swift */; };
 		88B916342BFBA3BE00D92B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B916332BFBA3BE00D92B28 /* Assets.xcassets */; };
 		88B916372BFBA3BE00D92B28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B916362BFBA3BE00D92B28 /* Preview Assets.xcassets */; };
 		88B916412BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916402BFBA3BE00D92B28 /* Disney_Villainous_PickerTests.swift */; };
@@ -25,9 +25,8 @@
 		88B9164D2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9164C2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift */; };
 		88B9165E2BFBACDA00D92B28 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9165D2BFBACDA00D92B28 /* Color+Extension.swift */; };
 		88B916632BFBC37D00D92B28 /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916622BFBC37D00D92B28 /* GameBox.swift */; };
-		88B916652BFBC39B00D92B28 /* GameCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916642BFBC39B00D92B28 /* GameCharacter.swift */; };
+		88B916652BFBC39B00D92B28 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916642BFBC39B00D92B28 /* Character.swift */; };
 		88D537F72BFD5087004AC570 /* GameBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537F62BFD5087004AC570 /* GameBoxes.swift */; };
-		88D537F92BFD510A004AC570 /* MovieRealms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537F82BFD510A004AC570 /* MovieRealms.swift */; };
 		88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE5F2BFBC59F0076FEFC /* Villains.swift */; };
 		88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE632BFBC7350076FEFC /* Extension+String.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,7 @@
 		884E5EBE2BFD1EF800CA04B9 /* Disney-Villainous-Picker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Disney-Villainous-Picker-Info.plist"; sourceTree = SOURCE_ROOT; };
 		88B9162C2BFBA3BC00D92B28 /* Disney Villainous Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disney Villainous Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerApp.swift; sourceTree = "<group>"; };
-		88B916312BFBA3BC00D92B28 /* VillainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainsView.swift; sourceTree = "<group>"; };
+		88B916312BFBA3BC00D92B28 /* VillainsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainsPicker.swift; sourceTree = "<group>"; };
 		88B916332BFBA3BE00D92B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B916362BFBA3BE00D92B28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88B9163C2BFBA3BE00D92B28 /* Disney Villainous PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disney Villainous PickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,9 +67,8 @@
 		88B9164C2BFBA3BE00D92B28 /* Disney_Villainous_PickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney_Villainous_PickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		88B9165D2BFBACDA00D92B28 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		88B916622BFBC37D00D92B28 /* GameBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBox.swift; sourceTree = "<group>"; };
-		88B916642BFBC39B00D92B28 /* GameCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCharacter.swift; sourceTree = "<group>"; };
+		88B916642BFBC39B00D92B28 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		88D537F62BFD5087004AC570 /* GameBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoxes.swift; sourceTree = "<group>"; };
-		88D537F82BFD510A004AC570 /* MovieRealms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRealms.swift; sourceTree = "<group>"; };
 		88DDFE5F2BFBC59F0076FEFC /* Villains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villains.swift; sourceTree = "<group>"; };
 		88DDFE632BFBC7350076FEFC /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,14 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		884E5EB02BFD141800CA04B9 /* BoardGame */ = {
+		884E5EB02BFD141800CA04B9 /* BoardGames */ = {
 			isa = PBXGroup;
 			children = (
 				884E5EAE2BFCCFDD00CA04B9 /* BoardGameView.swift */,
 				884E5EB12BFD142700CA04B9 /* BoardGameViewModel.swift */,
 				884E5EB32BFD1D3900CA04B9 /* HoveringButtonView.swift */,
 			);
-			path = BoardGame;
+			path = BoardGames;
 			sourceTree = "<group>";
 		};
 		884E5EB72BFD1EA900CA04B9 /* Fonts */ = {
@@ -124,7 +122,6 @@
 			children = (
 				88DDFE5F2BFBC59F0076FEFC /* Villains.swift */,
 				88D537F62BFD5087004AC570 /* GameBoxes.swift */,
-				88D537F82BFD510A004AC570 /* MovieRealms.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -154,10 +151,9 @@
 			children = (
 				88B9165C2BFBACC900D92B28 /* Extensions */,
 				884E5EC82BFD500A00CA04B9 /* Data */,
-				884E5EB02BFD141800CA04B9 /* BoardGame */,
+				884E5EB02BFD141800CA04B9 /* BoardGames */,
 				88B916612BFBC35F00D92B28 /* Models */,
 				88B916592BFBAA1200D92B28 /* PickerView */,
-				88B916312BFBA3BC00D92B28 /* VillainsView.swift */,
 				88B916332BFBA3BE00D92B28 /* Assets.xcassets */,
 				88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */,
 				884E5EBE2BFD1EF800CA04B9 /* Disney-Villainous-Picker-Info.plist */,
@@ -195,6 +191,7 @@
 		88B916592BFBAA1200D92B28 /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
+				88B916312BFBA3BC00D92B28 /* VillainsPicker.swift */,
 			);
 			path = PickerView;
 			sourceTree = "<group>";
@@ -212,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				88B916622BFBC37D00D92B28 /* GameBox.swift */,
-				88B916642BFBC39B00D92B28 /* GameCharacter.swift */,
+				88B916642BFBC39B00D92B28 /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -353,15 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B916652BFBC39B00D92B28 /* GameCharacter.swift in Sources */,
+				88B916652BFBC39B00D92B28 /* Character.swift in Sources */,
 				88B916632BFBC37D00D92B28 /* GameBox.swift in Sources */,
 				884E5EB42BFD1D3900CA04B9 /* HoveringButtonView.swift in Sources */,
 				88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */,
 				88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */,
 				88D537F72BFD5087004AC570 /* GameBoxes.swift in Sources */,
-				88B916322BFBA3BC00D92B28 /* VillainsView.swift in Sources */,
+				88B916322BFBA3BC00D92B28 /* VillainsPicker.swift in Sources */,
 				884E5EAF2BFCCFDD00CA04B9 /* BoardGameView.swift in Sources */,
-				88D537F92BFD510A004AC570 /* MovieRealms.swift in Sources */,
 				88B916302BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift in Sources */,
 				88B9165E2BFBACDA00D92B28 /* Color+Extension.swift in Sources */,
 				884E5EB22BFD142700CA04B9 /* BoardGameViewModel.swift in Sources */,

@@ -17,7 +17,7 @@ enum GameBoxes {
     case biggerAndBadder
     case filledWithFright
 
-    var game: GameBox {
+    var gameBox: GameBox {
 
         switch self {
 
