@@ -7,20 +7,29 @@
 
 import SwiftUI
 
+enum ButtonPosition {
+
+    case center
+    case left
+    case right
+}
+
 struct HoveringButtonView: View {
 
     let text: String
     let backgroundImage: String
+    let alignment: ButtonPosition
+    let action: () -> Void
 
     var body: some View {
 
         VStack {
             Spacer()
             HStack {
-                Spacer()
-                Button(action: {
-                    print("Next button tapped")
-                }) {
+                if self.alignment == .center || self.alignment == .right {
+                    Spacer()
+                }
+                Button(action: action) {
                     ZStack{
 
                         Image(self.backgroundImage, bundle: nil)
@@ -37,6 +46,9 @@ struct HoveringButtonView: View {
                 .shadow(color: .black, radius: 7)
                 .padding()
                 .hoverEffect(.lift)
+                if self.alignment == .center || self.alignment == .left {
+                    Spacer()
+                }
             }
         }
     }
@@ -44,5 +56,7 @@ struct HoveringButtonView: View {
 
 #Preview {
     HoveringButtonView(text: "chevron.forward",
-                       backgroundImage: "backgroundHoveringButton")
+                       backgroundImage: "backgroundHoveringButton",
+                       alignment: .left,
+                       action: {print("Button Tapped!")})
 }

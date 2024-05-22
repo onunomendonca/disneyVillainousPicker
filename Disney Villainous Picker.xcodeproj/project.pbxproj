@@ -27,6 +27,9 @@
 		88B916632BFBC37D00D92B28 /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916622BFBC37D00D92B28 /* GameBox.swift */; };
 		88B916652BFBC39B00D92B28 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B916642BFBC39B00D92B28 /* Character.swift */; };
 		88D537F72BFD5087004AC570 /* GameBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537F62BFD5087004AC570 /* GameBoxes.swift */; };
+		88D537FC2BFD7085004AC570 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537FB2BFD7085004AC570 /* PlayersView.swift */; };
+		88D537FE2BFD70C2004AC570 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537FD2BFD70C2004AC570 /* Player.swift */; };
+		88D538002BFD7203004AC570 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D537FF2BFD7203004AC570 /* PlayersViewModel.swift */; };
 		88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE5F2BFBC59F0076FEFC /* Villains.swift */; };
 		88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DDFE632BFBC7350076FEFC /* Extension+String.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +72,9 @@
 		88B916622BFBC37D00D92B28 /* GameBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBox.swift; sourceTree = "<group>"; };
 		88B916642BFBC39B00D92B28 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		88D537F62BFD5087004AC570 /* GameBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoxes.swift; sourceTree = "<group>"; };
+		88D537FB2BFD7085004AC570 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		88D537FD2BFD70C2004AC570 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		88D537FF2BFD7203004AC570 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
 		88DDFE5F2BFBC59F0076FEFC /* Villains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villains.swift; sourceTree = "<group>"; };
 		88DDFE632BFBC7350076FEFC /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,9 +157,10 @@
 			children = (
 				88B9165C2BFBACC900D92B28 /* Extensions */,
 				884E5EC82BFD500A00CA04B9 /* Data */,
-				884E5EB02BFD141800CA04B9 /* BoardGames */,
 				88B916612BFBC35F00D92B28 /* Models */,
-				88B916592BFBAA1200D92B28 /* PickerView */,
+				884E5EB02BFD141800CA04B9 /* BoardGames */,
+				88B916592BFBAA1200D92B28 /* VillainsPickerView */,
+				88D537FA2BFD7078004AC570 /* PlayersView */,
 				88B916332BFBA3BE00D92B28 /* Assets.xcassets */,
 				88B9162F2BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift */,
 				884E5EBE2BFD1EF800CA04B9 /* Disney-Villainous-Picker-Info.plist */,
@@ -188,12 +195,12 @@
 			path = "Disney Villainous PickerUITests";
 			sourceTree = "<group>";
 		};
-		88B916592BFBAA1200D92B28 /* PickerView */ = {
+		88B916592BFBAA1200D92B28 /* VillainsPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				88B916312BFBA3BC00D92B28 /* VillainsPicker.swift */,
 			);
-			path = PickerView;
+			path = VillainsPickerView;
 			sourceTree = "<group>";
 		};
 		88B9165C2BFBACC900D92B28 /* Extensions */ = {
@@ -210,8 +217,18 @@
 			children = (
 				88B916622BFBC37D00D92B28 /* GameBox.swift */,
 				88B916642BFBC39B00D92B28 /* Character.swift */,
+				88D537FD2BFD70C2004AC570 /* Player.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		88D537FA2BFD7078004AC570 /* PlayersView */ = {
+			isa = PBXGroup;
+			children = (
+				88D537FB2BFD7085004AC570 /* PlayersView.swift */,
+				88D537FF2BFD7203004AC570 /* PlayersViewModel.swift */,
+			);
+			path = PlayersView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,12 +372,15 @@
 				884E5EB42BFD1D3900CA04B9 /* HoveringButtonView.swift in Sources */,
 				88DDFE602BFBC59F0076FEFC /* Villains.swift in Sources */,
 				88DDFE642BFBC7350076FEFC /* Extension+String.swift in Sources */,
+				88D537FE2BFD70C2004AC570 /* Player.swift in Sources */,
 				88D537F72BFD5087004AC570 /* GameBoxes.swift in Sources */,
+				88D538002BFD7203004AC570 /* PlayersViewModel.swift in Sources */,
 				88B916322BFBA3BC00D92B28 /* VillainsPicker.swift in Sources */,
 				884E5EAF2BFCCFDD00CA04B9 /* BoardGameView.swift in Sources */,
 				88B916302BFBA3BC00D92B28 /* Disney_Villainous_PickerApp.swift in Sources */,
 				88B9165E2BFBACDA00D92B28 /* Color+Extension.swift in Sources */,
 				884E5EB22BFD142700CA04B9 /* BoardGameViewModel.swift in Sources */,
+				88D537FC2BFD7085004AC570 /* PlayersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -60,8 +60,9 @@ struct VillainsPicker: View {
                     }
 
                 }
-                .listStyle(.grouped)
+                .listStyle(.insetGrouped)
                 .padding(.horizontal, 7)
+                .scrollContentBackground(.hidden)
             }
         }
     }
